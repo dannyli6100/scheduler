@@ -1,0 +1,19 @@
+body {
+    margin: 0; /* Remove default body margins */
+    height: 940px;
+    border: 1px dotted black;
+  }
+
+.container {
+    display: flex; /* Use flexbox for column layout */
+    width: 100%; /* Container spans the entire body */
+    height: 100%;
+    border: 1px solid black;
+}
+
+.calendar {
+    flex: 1; /* Distribute space equally between columns */
+    padding: 10px; /* Add some padding for content */
+    margin: 5px;
+    border: 2px solid black;
+}
